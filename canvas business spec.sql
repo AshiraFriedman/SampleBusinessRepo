@@ -22,6 +22,9 @@ A. Good catch, yes.
 Q. Can a order by fulfilled the day it was ordered?
 A. No
 
+Q. Do you need to sort the ones that get delivered together? Meaning sending all from the same state together? Or are all deliveries sent separately?
+A. For now we don't need to.
+
 P.S. If you have any questions or are not sure of something, please feel free to reach out to me via slack (Yaakov Eidelman), any time of day or night, and I'll answer as soon as I can.
 
 
