@@ -7,7 +7,7 @@ from Canvas c
 group by c.WantsDelivery
 
 -- 2. I need to keep track of how much revenue I make per month of each year. (Not Profit). It should be per month from the date ordered, as that is when we get paid.
-select Month = month(c.DateOrdered), Profit = avg(c.TotalPrice)
+select Month = month(c.DateOrdered), Profit = sum(c.TotalPrice)
 from Canvas c
 group by month(c.DateOrdered)
 
